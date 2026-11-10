@@ -191,3 +191,7 @@ ollama serve
 Then in the app: Settings > AI > Provider: Ollama.
 
 Cloud AI must remain opt-in with user-supplied keys only.
+
+## Historical source examples
+
+Open the [benchmark review diagram](public-data/benchmark-review.mmd) to see how the State Street, Trihydro and Caliber Collision examples move from an archived comparison through validation to a neutral table.
