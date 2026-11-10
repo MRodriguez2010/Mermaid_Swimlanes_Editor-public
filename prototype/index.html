@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mermaid Swimlanes Prototype</title>
+    <link rel="stylesheet" href="../styles/app.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <section class="panel board-panel">
+        <header class="toolbar">
+          <div class="toolbar__group">
+            <label class="field-label" for="diagram-title">Diagram Title</label>
+            <input id="diagram-title" class="text-input" type="text" placeholder="Project Timeline" />
+          </div>
+          <button id="add-lane-button" class="primary-button" type="button">Add Lane</button>
+        </header>
+
+        <div id="lane-board" class="lane-board" aria-live="polite"></div>
+      </section>
+
+      <section class="panel code-panel">
+        <header class="panel-header">
+          <h2>Mermaid Code</h2>
+          <span class="panel-subtitle">Generated from editor state</span>
+        </header>
+        <textarea id="mermaid-code" class="code-output" readonly spellcheck="false"></textarea>
+      </section>
+
+      <section class="panel preview-panel">
+        <header class="panel-header">
+          <h2>Preview</h2>
+          <span class="panel-subtitle">Rendered with Mermaid.js</span>
+        </header>
+        <div id="preview-error" class="preview-error" hidden></div>
+        <div id="mermaid-preview" class="mermaid-preview"></div>
+      </section>
+    </div>
+
+    <script type="module" src="../src/main.js"></script>
+  </body>
+</html>

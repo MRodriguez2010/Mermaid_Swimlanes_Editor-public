@@ -1,0 +1,4 @@
+flowchart LR
+  Request[Receive order] --> Verify{Stock available?}
+  Verify -->|Yes| Pack[Prepare shipment]
+  Verify -->|No| Review[Request restock]
