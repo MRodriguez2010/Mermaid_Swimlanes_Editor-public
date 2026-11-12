@@ -1,5 +1,7 @@
 # Mermaid Local
 
+**Employee Sentiment Analysis project family:** [Project guide](https://github.com/MRodriguez2010/Revelio/blob/main/docs/employee-sentiment-analysis-projects.md) · [Revelio interactive demo](https://github.com/MRodriguez2010/Revelio)
+
 The standalone editor and its browser prototype are included. The bundled diagrams illustrate a fictional supply workflow.
 
 Local-first desktop editor for authoring Mermaid diagrams with a code editor, infinite canvas, bidirectional visual editing, local history, export, and optional AI assistance.
